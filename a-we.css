@@ -1,0 +1,25 @@
+body {
+    background-color: #ACACAC;
+    font-size: 2.5rem;
+}
+
+.logo {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 0px yellow solid;
+}
+
+.tag {
+    border: 0px red solid;
+    padding: 0;
+    margin: 3rem;
+    color: #000;
+}
+
+video {
+    width: 2000px;
+    height: auto;
+    object-fit: cover;
+}
