@@ -1,6 +1,6 @@
 body {
     background-color: #ACACAC;
-    font-size: 2.5rem;
+    font-size 2.5rem;
 }
 
 .box{
@@ -28,7 +28,7 @@ body {
 
 .band {
     display: flex;
-    font-size: 2rem;
+    font-size 2rem;
     border: 1px red solid;
     max-width: 100%;
     width: 100%;
@@ -39,15 +39,15 @@ body {
 
 @media (min-width: 0px) {
     .tag, .band{ font-size: 1rem; }
-  }
+}
   
-  @media (min-width: 400px) {
+@media (min-width: 400px) {
     .tag,.band { font-size: calc(1rem + 1vw); }
-  }
+}
   
-  @media (min-width: 1001px){
+@media (min-width: 1001px){
     .tag, .band { font-size: 2.5rem; }
-  }
+}
 
 canvas {
     border: 0px solid black;
