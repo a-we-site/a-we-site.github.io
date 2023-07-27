@@ -3,12 +3,17 @@ body {
     font-size: 2.5rem;
 }
 
-.logo {
-    margin-top: 5rem;
+.box{
     display: flex;
     justify-content: center;
     align-content: center;
+    border: 0px blue solid;
+}
+
+.logo {
     border: 0px yellow solid;
+    width: 75%;
+    height: auto; /* vary this to your needs ie auto, 100%, etc */
 }
 
 .tag {
@@ -16,10 +21,55 @@ body {
     padding: 0;
     margin: 3rem;
     color: #000;
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-between;
 }
 
-video {
-    width: 2000px;
-    height: auto;
-    object-fit: cover;
+.band {
+    display: flex;
+    font-size: 2rem;
+    border: 1px red solid;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 1rem;
+    justify-content: center;
+    align-content: center;
+}
+
+@media (min-width: 0px) {
+    .tag, .band{ font-size: 1rem; }
+  }
+  
+  @media (min-width: 400px) {
+    .tag,.band { font-size: calc(1rem + 1vw); }
+  }
+  
+  @media (min-width: 1001px){
+    .tag, .band { font-size: 2.5rem; }
+  }
+
+canvas {
+    border: 0px solid black;
+    width: 65%;
+    background-color: ACACAC;
+    margin: -3rem;
+    padding: 0;
+}
+
+.canvas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border: 0px solid red
+  }
+  
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
