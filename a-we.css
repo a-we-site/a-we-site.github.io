@@ -29,7 +29,7 @@ body {
 .band {
     display: flex;
     font-size 2rem;
-    border: 1px red solid;
+    border: 0px red solid;
     max-width: 100%;
     width: 100%;
     margin-top: 1rem;
