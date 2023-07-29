@@ -37,10 +37,6 @@ body {
     align-items: center;
 }
 
-.motto{
-  border: 0px green solid;
-}
-
 @media (min-width: 0px) {
     .tag, .band{ font-size: 1rem; }
   }
